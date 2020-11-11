@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<extension type="component" version="4.0" method="upgrade">
+	<name>COM_DEMOJ4</name>
+	<license>GNU/GPL 3</license>
+	<author>Constantin Romankiewicz</author>
+	<authorEmail>constantin@zweiiconkram.de</authorEmail>
+	<authorUrl>https://www.zweiiconkram.de</authorUrl>
+	<creationDate>2020/11/11</creationDate>
+	<version>1.0.0</version>
+	<description>COM_DEMOJ4_XML_DESCRIPTION</description>
+	<namespace path="src">ZweiIconKram\DemoJ4</namespace>
+
+	<administration>
+		<menu>
+			COM_DEMOJ4
+			<params>
+				<dashboard>com_demoj4</dashboard>
+			</params>
+		</menu>
+
+		<files folder="admin">
+			<folder>language</folder>
+		</files>
+	</administration>
+
+	<files folder="site">
+	</files>
+</extension>

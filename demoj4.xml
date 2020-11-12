@@ -11,7 +11,7 @@
 	<namespace path="src">ZweiIconKram\DemoJ4</namespace>
 
 	<administration>
-		<menu>
+		<menu img="class:bullhorn">
 			COM_DEMOJ4
 			<params>
 				<dashboard>com_demoj4</dashboard>
